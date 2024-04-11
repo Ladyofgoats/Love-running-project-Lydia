@@ -1,0 +1,24 @@
+/* asterisk to overide other styles further down */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* header */
+header {
+    background-color:red
+}
+
+/* main */
+main {
+    background-color:green
+}
+
+/* footer */
+footer {
+    background-color:blue
+}
