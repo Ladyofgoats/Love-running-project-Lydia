@@ -24,6 +24,10 @@ header {
     background-color:red
 }
 
+h1 {
+    font-family: 'Oswals', sans-serif;
+}
+
 /* Main content */
 main {
     background-color: green;
