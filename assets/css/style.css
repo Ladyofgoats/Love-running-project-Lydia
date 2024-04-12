@@ -16,7 +16,7 @@ body {
     flex-direction: column;
 /* Generic project styles */
 color: #3a3a3a;
-font-family: 'lato', sans-serif;
+font-family: 'Lato', sans-serif;
 }
 
 /* Header */
@@ -32,7 +32,7 @@ header {
     align-items: baseline;
 }
 
-header {
+header a {
     text-decoration: none;
     color: inherit;
 }
@@ -57,7 +57,7 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid: #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* Navbar styles with dropdown menu */
@@ -93,14 +93,14 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 margin-top: 47px;
-
+}
 /* Footer */
 footer {
     background-color:blue
 }
 
 /* Media query: Tablets and larger    */
-@media screen and (mind-width 768px) {
+@media screen and (min-width: 768px) {
     /* Header */
     nav {
         display: block;
@@ -109,5 +109,18 @@ footer {
         width: fit-content;
         padding-right: 1rem;
     }
-    
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
 }
+    
