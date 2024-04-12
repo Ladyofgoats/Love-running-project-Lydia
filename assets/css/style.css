@@ -98,3 +98,16 @@ margin-top: 47px;
 footer {
     background-color:blue
 }
+
+/* Media query: Tablets and larger    */
+@media screen and (mind-width 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    
+}
